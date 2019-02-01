@@ -12,6 +12,11 @@
 		35FF1D6522043CD8005FFB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FF1D6322043CD8005FFB71 /* Main.storyboard */; };
 		35FF1D6722043CDA005FFB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FF1D6622043CDA005FFB71 /* Assets.xcassets */; };
 		35FF1D6A22043CDA005FFB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FF1D6822043CDA005FFB71 /* LaunchScreen.storyboard */; };
+		35FF1D7522044143005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FF1D7422044143005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 */; };
+		35FF1D7722044149005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FF1D7622044149005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 */; };
+		35FF1D7B2204456B005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 35FF1D7A2204456B005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 */; };
+		35FF1D7D22044572005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 35FF1D7C22044572005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 */; };
+		35FF1D7F22044AB2005FFB71 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FF1D7E22044AB2005FFB71 /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		35FF1D6622043CDA005FFB71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35FF1D6922043CDA005FFB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35FF1D6B22043CDA005FFB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FF1D7422044143005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Jonas Blue - Mama ft. William Singe.mp4"; path = "../Jonas Blue - Mama ft. William Singe.mp4"; sourceTree = "<group>"; };
+		35FF1D7622044149005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Xcode Playgrounds - Prototyping UI - Swift.mp4"; path = "../Xcode Playgrounds - Prototyping UI - Swift.mp4"; sourceTree = "<group>"; };
+		35FF1D7A2204456B005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jonas Blue - Mama ft. William Singe.mp4"; sourceTree = "<group>"; };
+		35FF1D7C22044572005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Xcode Playgrounds - Prototyping UI - Swift.mp4"; sourceTree = "<group>"; };
+		35FF1D7E22044AB2005FFB71 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35FF1D7722044149005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 in Frameworks */,
+				35FF1D7522044143005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,7 @@
 			children = (
 				35FF1D5E22043CD8005FFB71 /* VideoPlayerLocally */,
 				35FF1D5D22043CD8005FFB71 /* Products */,
+				35FF1D7322044142005FFB71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +70,23 @@
 				35FF1D5F22043CD8005FFB71 /* AppDelegate.swift */,
 				35FF1D6122043CD8005FFB71 /* ViewController.swift */,
 				35FF1D6322043CD8005FFB71 /* Main.storyboard */,
+				35FF1D7E22044AB2005FFB71 /* VideoViewController.swift */,
 				35FF1D6622043CDA005FFB71 /* Assets.xcassets */,
+				35FF1D7A2204456B005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 */,
+				35FF1D7C22044572005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 */,
 				35FF1D6822043CDA005FFB71 /* LaunchScreen.storyboard */,
 				35FF1D6B22043CDA005FFB71 /* Info.plist */,
 			);
 			path = VideoPlayerLocally;
+			sourceTree = "<group>";
+		};
+		35FF1D7322044142005FFB71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35FF1D7622044149005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 */,
+				35FF1D7422044143005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +149,9 @@
 			files = (
 				35FF1D6A22043CDA005FFB71 /* LaunchScreen.storyboard in Resources */,
 				35FF1D6722043CDA005FFB71 /* Assets.xcassets in Resources */,
+				35FF1D7D22044572005FFB71 /* Xcode Playgrounds - Prototyping UI - Swift.mp4 in Resources */,
 				35FF1D6522043CD8005FFB71 /* Main.storyboard in Resources */,
+				35FF1D7B2204456B005FFB71 /* Jonas Blue - Mama ft. William Singe.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,7 @@
 			files = (
 				35FF1D6222043CD8005FFB71 /* ViewController.swift in Sources */,
 				35FF1D6022043CD8005FFB71 /* AppDelegate.swift in Sources */,
+				35FF1D7F22044AB2005FFB71 /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
